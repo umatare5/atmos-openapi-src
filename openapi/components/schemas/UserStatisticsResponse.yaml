@@ -1,0 +1,8 @@
+# UserStatisticsResponse.yaml
+properties:
+  code:
+    type: string
+  message:
+    type: string
+  response:
+    $ref: './UserStatisticsObject.yaml'

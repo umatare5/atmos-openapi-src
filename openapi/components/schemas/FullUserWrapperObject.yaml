@@ -1,0 +1,4 @@
+# FullUserWrapperObject.yaml
+properties:
+  user:
+    $ref: './FullUserObject.yaml'

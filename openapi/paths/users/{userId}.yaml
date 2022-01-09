@@ -1,0 +1,17 @@
+# {userId}.yaml
+get:
+  description: Return user profile
+  operationId: getUser
+  security:
+    - bearerAuth: []
+  parameters:
+    - $ref: '../../components/parameters/userId.yaml'
+  responses:
+    '200':
+      description: Return user profile
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/UserResponse.yaml'
+    default:
+      $ref: '../../components/responses/ErrorResponse.yaml'

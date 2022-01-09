@@ -1,0 +1,11 @@
+{
+  "name": "atmos-go",
+  "version": "0.1.0",
+  "description": "Client for ATMOS Platform API",
+  "author": "umatare5",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "swagger-cli": "^4.0.4"
+  }
+}

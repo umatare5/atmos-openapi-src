@@ -1,0 +1,40 @@
+# FullUserObject.yaml
+properties:
+  user_id:
+    type: string
+  user_name:
+    type: string
+  status:
+    type: string
+  role:
+    type: string
+  profile_image_path:
+    type: string
+  first_name:
+    type: string
+  last_name:
+    type: string
+  gender:
+    type: integer
+  birthday:
+    type: string
+  identity:
+    type: string
+  country_code:
+    type: string
+  city:
+    type: string
+  zip:
+    type: string
+  address:
+    type: string
+  about:
+    type: string
+  certifications:
+    type: array
+  certification_id:
+    type: string
+  certification_details:
+    type: array
+    items:
+      $ref: './CertificationDetailObject.yaml'

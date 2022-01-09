@@ -1,0 +1,40 @@
+# UserStatisticsObject.yaml
+properties:
+  dive_time:
+    type: integer
+  divelog_count:
+    type: integer
+  follower_count:
+    type: integer
+  following_count:
+    type: integer
+  free_dive_time:
+    type: integer
+  free_max_depth:
+    type: string
+  free_min_temperature:
+    type: string
+  freedive_mode_count:
+    type: integer
+  gauge_mode_count:
+    type: integer
+  max_depth:
+    type: string
+  min_temperature:
+    type: string
+  post_count:
+    type: integer
+  scuba_dive_time:
+    type: integer
+  scuba_max_depth:
+    type: string
+  scuba_min_temperature:
+    type: string
+  scuba_mode_count:
+    type: integer
+  scuba_summary_count:
+    type: integer
+  total_depth:
+    type: string
+  user_id:
+    type: string

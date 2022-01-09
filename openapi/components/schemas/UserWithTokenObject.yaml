@@ -1,0 +1,6 @@
+# UserWithTokenObject.yaml
+properties:
+  token:
+    type: string
+  user:
+    $ref: './FullUserObject.yaml'

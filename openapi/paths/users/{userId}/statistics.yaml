@@ -1,0 +1,17 @@
+# statistics.yaml
+get:
+  description: Return user statistics
+  operationId: getUserStatistics
+  security:
+    - bearerAuth: []
+  parameters:
+    - $ref: '../../../components/parameters/userId.yaml'
+  responses:
+    '200':
+      description: Return user statistics
+      content:
+        application/json:
+          schema:
+            $ref: '../../../components/schemas/UserStatisticsResponse.yaml'
+    default:
+      $ref: '../../../components/responses/ErrorResponse.yaml'

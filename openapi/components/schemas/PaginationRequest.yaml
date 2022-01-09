@@ -1,0 +1,6 @@
+# PaginationRequest.yaml
+properties:
+  limit:
+    type: string
+  cursor:
+    type: string

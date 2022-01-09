@@ -1,0 +1,8 @@
+# CertificationDetailObject.yaml
+properties:
+  certification_id:
+    type: string
+  front_path:
+    type: string
+  back_path:
+    type: string
