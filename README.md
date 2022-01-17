@@ -5,7 +5,7 @@ atmos-go is **Unofficial** Go client to use [ATMOS](https://www.atmos.app/) Plat
 ## Usage
 
 ```sh
-go get github.com/umatare5/atmos-go/v0
+go get github.com/umatare5/atmos-go
 ```
 
 ## Features
