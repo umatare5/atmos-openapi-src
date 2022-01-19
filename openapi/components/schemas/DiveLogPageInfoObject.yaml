@@ -1,4 +1,4 @@
-# DiveLogPageInfo.yaml
+# DiveLogPageInfoObject.yaml
 properties:
   has_next_page:
     type: boolean

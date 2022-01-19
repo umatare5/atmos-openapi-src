@@ -15,4 +15,4 @@ validate_oapi_codegen_exists
 
 # Builds
 build_openapi
-build_client
+build_library

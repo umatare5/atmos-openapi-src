@@ -17,7 +17,7 @@ validate_goreleaser_exists
 
 # Builds
 build_openapi
-build_client
+build_library
 
 # Release
 release_library

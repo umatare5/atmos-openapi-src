@@ -12,6 +12,6 @@ get:
       content:
         application/json:
           schema:
-            $ref: '../../components/schemas/SingleDiveLogsWrapperResponse.yaml'
+            $ref: '../../components/schemas/SingleDiveLogWrapperResponse.yaml'
     default:
       $ref: '../../components/responses/ErrorResponse.yaml'

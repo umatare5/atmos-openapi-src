@@ -1,4 +1,4 @@
-# Bundle divided OpenAPI specification to single.
+# Bundle divided OpenAPI specification to single
 function build_openapi(){
   npx swagger-cli bundle \
     openapi/openapi.yaml \
@@ -7,8 +7,8 @@ function build_openapi(){
     --dereference
 }
 
-# Build API client for go.
-function build_client(){
+# Build library for go
+function build_library(){
   oapi-codegen \
     -generate "types,client" \
     -package atmos \

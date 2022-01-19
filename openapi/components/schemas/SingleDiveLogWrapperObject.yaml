@@ -1,4 +1,4 @@
-# SingleDiveLogsWrapperObject.yaml
+# SingleDiveLogWrapperObject.yaml
 properties:
   divelog:
     $ref: './SingleDiveLogObject.yaml'

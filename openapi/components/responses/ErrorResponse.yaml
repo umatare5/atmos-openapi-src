@@ -3,4 +3,4 @@ description: unexpected error
 content:
   application/json:
     schema:
-      $ref: '../schemas/ErrorObject.yaml'
+      $ref: './ErrorObject.yaml'
