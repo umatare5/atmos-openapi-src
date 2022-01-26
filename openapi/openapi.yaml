@@ -1,23 +1,23 @@
 openapi: "3.0.3"
 info:
   version: 0.1.0
-  title: ATMOS API
-  description: Unofficial client for ATMOS API
+  title: ATMOS Platform API
+  description: Unofficial client for ATMOS Platform API
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
 servers:
   - url: https://localhost/
 paths:
-  /users/{userId}:
+  /api/v1/users/{userId}:
     $ref: './paths/users/{userId}.yaml'
-  /users/{userId}/statistics:
+  /api/v1/users/{userId}/statistics:
     $ref: './paths/users/{userId}/statistics.yaml'
-  /divelogs/shortDrafts:
+  /api/v1/divelogs/shortDrafts:
     $ref: './paths/divelogs/shortDrafts.yaml'
-  /divelogs/deleted:
+  /api/v1/divelogs/deleted:
     $ref: './paths/divelogs/deleted.yaml'
-  /divelogs/divelog/{divelogId}:
+  /api/v1/divelogs/divelog/{divelogId}:
     $ref: './paths/divelog/{divelogId}.yaml'
 
 components:
