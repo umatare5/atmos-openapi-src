@@ -1,28 +1,14 @@
-# atmos-go
+# atmos-openapi-src
 
-atmos-go is **Unofficial** Go client to use [ATMOS](https://www.atmos.app/) Platform API.
+atmos-openapi-src is a source generates libraries for [ATMOS Platform API](https://www.atmos.app/).
 
-## Usage
+This code generates following two modules;
 
-```sh
-go get github.com/umatare5/atmos-go
-```
+- [atmos-go](https://github.com/umatare5/atmos-go)
 
-## Features
-
-- Get profile
-- Fetch divelogs
-
-## Prerequisite
-
-Both parameters are hidden yet. Let's wait for the release.
-
-- URI of ATMOS Platform API
-- Access Token to use ATMOS Platform API
+  Go Client to use Logbook API.
 
 ## Development
-
-The code is generated from OpenAPI Specification.
 
 ### Setup
 
@@ -38,16 +24,15 @@ The code is generated from OpenAPI Specification.
   go install github.com/deepmap/oapi-codegen/cmd/oapi-codegen@latest
   ```
 
-## Operation
-
 ### Build
 
 ```sh
-scripts/build.sh
+make build
 ```
 
 ### Release
 
 ```sh
-scripts/release.sh
+git bump
+make release
 ```
