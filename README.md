@@ -2,11 +2,18 @@
 
 atmos-openapi-src is a source generates libraries for [ATMOS Platform API](https://www.atmos.app/).
 
-This code generates following two modules;
+This code generates following module;
 
 - [atmos-go](https://github.com/umatare5/atmos-go)
 
-  Go Client to use Logbook API.
+  Go Client to use ATMOS Platform API.
+
+## Prerequisite
+
+- FQDN of ATMOS Platform API
+- Access-token to use ATMOS Platform API
+
+Both parameters are hidden yet. Let's wait for official release.
 
 ## Development
 
