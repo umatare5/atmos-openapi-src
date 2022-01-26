@@ -18,6 +18,6 @@ function update_subprojects(){
   local GIT_LATEST_TAG=$2
 
   git add .
-  git commit -m "Bump version to ${GIT_LATEST_TAG}"
+  git commit -m "Update subprojects"
   git push origin main
 }
